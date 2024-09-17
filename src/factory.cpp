@@ -62,6 +62,7 @@
 #ifdef HAVE_LIBUDEV
 #include "modules/backlight.hpp"
 #include "modules/backlight_slider.hpp"
+#include "modules/backlight_popup.hpp"
 #endif
 #ifdef HAVE_LIBEVDEV
 #include "modules/keyboard_state.hpp"
@@ -258,6 +259,9 @@ waybar::AModule* waybar::Factory::makeModule(const std::string& name,
     }
     if (ref == "backlight/slider") {
       return new waybar::modules::BacklightSlider(id, config_[name]);
+    }
+    if (ref == "backlight/popup") {
+      return new waybar::modules::BacklightPopup(id, bar_, config_[name]);
     }
 #endif
 #ifdef HAVE_LIBEVDEV

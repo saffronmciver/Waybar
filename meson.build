@@ -170,6 +170,7 @@ src_files = files(
     'src/modules/temperature.cpp',
     'src/modules/user.cpp',
     'src/ASlider.cpp',
+    'src/APopup.cpp',
     'src/main.cpp',
     'src/bar.cpp',
     'src/client.cpp',
@@ -403,6 +404,7 @@ if libudev.found() and (is_linux or libepoll.found())
     src_files += files(
         'src/modules/backlight.cpp',
         'src/modules/backlight_slider.cpp',
+        'src/modules/backlight_popup.cpp',
         'src/util/backlight_backend.cpp',
     )
     man_files += files(

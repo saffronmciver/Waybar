@@ -1,0 +1,184 @@
+Only in ../../Waybar/: build
+Only in ../../Waybar/: diff
+Only in .: Diff
+diff '--color=auto' -r ./.git/config ../../Waybar/.git/config
+9c9
+< 	url = https://github.com/saffronmciver/Waybar
+---
+> 	url = https://github.com/Alexays/Waybar
+Binary files ./.git/index and ../../Waybar/.git/index differ
+diff '--color=auto' -r ./.git/logs/HEAD ../../Waybar/.git/logs/HEAD
+1,2c1
+< 0000000000000000000000000000000000000000 6560e32bc1fd3c777d7094b2033a4358a98ca0ee Saffron <> 1726073779 +0100	clone: from https://github.com/saffronmciver/Waybar
+< 6560e32bc1fd3c777d7094b2033a4358a98ca0ee 6560e32bc1fd3c777d7094b2033a4358a98ca0ee Saffron <> 1726074086 +0100	reset: moving to HEAD
+---
+> 0000000000000000000000000000000000000000 26329b660af3169b9daad533017964f35ba98726 Saffron <> 1724523030 +0100	clone: from https://github.com/Alexays/Waybar
+diff '--color=auto' -r ./.git/logs/refs/heads/master ../../Waybar/.git/logs/refs/heads/master
+1c1
+< 0000000000000000000000000000000000000000 6560e32bc1fd3c777d7094b2033a4358a98ca0ee Saffron <> 1726073779 +0100	clone: from https://github.com/saffronmciver/Waybar
+---
+> 0000000000000000000000000000000000000000 26329b660af3169b9daad533017964f35ba98726 Saffron <> 1724523030 +0100	clone: from https://github.com/Alexays/Waybar
+diff '--color=auto' -r ./.git/logs/refs/remotes/origin/HEAD ../../Waybar/.git/logs/refs/remotes/origin/HEAD
+1c1
+< 0000000000000000000000000000000000000000 6560e32bc1fd3c777d7094b2033a4358a98ca0ee Saffron <> 1726073779 +0100	clone: from https://github.com/saffronmciver/Waybar
+---
+> 0000000000000000000000000000000000000000 26329b660af3169b9daad533017964f35ba98726 Saffron <> 1724523030 +0100	clone: from https://github.com/Alexays/Waybar
+Binary files ./.git/modules/package/archlinux/index and ../../Waybar/.git/modules/package/archlinux/index differ
+diff '--color=auto' -r ./.git/modules/package/archlinux/logs/HEAD ../../Waybar/.git/modules/package/archlinux/logs/HEAD
+1,2c1,2
+< 0000000000000000000000000000000000000000 8a98b56282a977a9fece6e00d2b3f7f8fb258f13 Saffron <> 1726073779 +0100	clone: from https://aur.archlinux.org/waybar-git.git
+< 8a98b56282a977a9fece6e00d2b3f7f8fb258f13 9cf405e57c27d13acab4a9a7726c56511aca98bb Saffron <> 1726073779 +0100	checkout: moving from master to 9cf405e57c27d13acab4a9a7726c56511aca98bb
+---
+> 0000000000000000000000000000000000000000 8a98b56282a977a9fece6e00d2b3f7f8fb258f13 Saffron <> 1724523042 +0100	clone: from https://aur.archlinux.org/waybar-git.git
+> 8a98b56282a977a9fece6e00d2b3f7f8fb258f13 9cf405e57c27d13acab4a9a7726c56511aca98bb Saffron <> 1724523042 +0100	checkout: moving from master to 9cf405e57c27d13acab4a9a7726c56511aca98bb
+diff '--color=auto' -r ./.git/modules/package/archlinux/logs/refs/heads/master ../../Waybar/.git/modules/package/archlinux/logs/refs/heads/master
+1c1
+< 0000000000000000000000000000000000000000 8a98b56282a977a9fece6e00d2b3f7f8fb258f13 Saffron <> 1726073779 +0100	clone: from https://aur.archlinux.org/waybar-git.git
+---
+> 0000000000000000000000000000000000000000 8a98b56282a977a9fece6e00d2b3f7f8fb258f13 Saffron <> 1724523042 +0100	clone: from https://aur.archlinux.org/waybar-git.git
+diff '--color=auto' -r ./.git/modules/package/archlinux/logs/refs/remotes/origin/HEAD ../../Waybar/.git/modules/package/archlinux/logs/refs/remotes/origin/HEAD
+1c1
+< 0000000000000000000000000000000000000000 8a98b56282a977a9fece6e00d2b3f7f8fb258f13 Saffron <> 1726073779 +0100	clone: from https://aur.archlinux.org/waybar-git.git
+---
+> 0000000000000000000000000000000000000000 8a98b56282a977a9fece6e00d2b3f7f8fb258f13 Saffron <> 1724523042 +0100	clone: from https://aur.archlinux.org/waybar-git.git
+Only in ../../Waybar/.git/objects/pack: pack-af00302333f7a72dceee0efad8ea9ca8c89e4d7b.idx
+Only in ../../Waybar/.git/objects/pack: pack-af00302333f7a72dceee0efad8ea9ca8c89e4d7b.pack
+Only in ../../Waybar/.git/objects/pack: pack-af00302333f7a72dceee0efad8ea9ca8c89e4d7b.rev
+Only in ./.git/objects/pack: pack-e333b64bddf7c6a58f73c77dd55689945cf1563d.idx
+Only in ./.git/objects/pack: pack-e333b64bddf7c6a58f73c77dd55689945cf1563d.pack
+Only in ./.git/objects/pack: pack-e333b64bddf7c6a58f73c77dd55689945cf1563d.rev
+Only in ./.git: ORIG_HEAD
+diff '--color=auto' -r ./.git/packed-refs ../../Waybar/.git/packed-refs
+2c2,66
+< 6560e32bc1fd3c777d7094b2033a4358a98ca0ee refs/remotes/origin/master
+---
+> b54e2c16f33ec4759a586c0b6add3fbbdb8b96d0 refs/remotes/origin/gtk4
+> 26329b660af3169b9daad533017964f35ba98726 refs/remotes/origin/master
+> 7e1fffc455cb9930982e65d29e1b8bfd7d2c90d9 refs/remotes/origin/update_flake_lock_action
+> 9e85c68fc8b564c59a4a971990ed6fc58d298590 refs/tags/0.0.1
+> 3690e7ac55726ebf6fa9d23c437dad36a1397329 refs/tags/0.0.2
+> c3bd6da1d0cecab92d800ede15112aaa73cdafb4 refs/tags/0.0.3
+> 93f87f322f2a01dc8bd639d83c3e1837f08e198a refs/tags/0.0.4
+> 969c1ceedd8440db7d6760de6ca91c835c6a913e refs/tags/0.0.5
+> 53956d9d1808061f817963c14de89287aa76bcc5 refs/tags/0.0.6
+> 55e190528437a0e2a0c2ae868522ce3e4b022638 refs/tags/0.0.7
+> 68d9d2c347f0db14aeb3d9d51019ffc02027e0bc refs/tags/0.1.0
+> 9fae5efc069d19cb7437b84f7e638f785048a9e5 refs/tags/0.1.1
+> e8f3c1c6b3219b902b789acfc601c7e7c3c178b6 refs/tags/0.1.2
+> 3f2eb0b4920c274d70e90b687c15e0657fb145b9 refs/tags/0.1.3
+> 32eac3ccb738691974121b77b4af0c47d1cbe524 refs/tags/0.10.0
+> 501e63fba63b244b589faf5fe2489a7e440a9ae0 refs/tags/0.10.1
+> a04016e0b6033b783e4b706e764aa8b5466f81c1 refs/tags/0.10.2
+> e627879b1656ec7352e6382f80ee16d90b377aaf refs/tags/0.10.3
+> 15e1547661bfc5fe9b3d45bb0d9cea11cf07db7f refs/tags/0.10.4
+> 43cd80fb3167b30053e7aa4c7dcff22fead78267 refs/tags/0.2.0
+> 33f138c16ec13a769138a8b40d030d599aa2f9b5 refs/tags/0.2.1
+> 2b05b8e69ae69d10c928b1880572cc0feea81cda refs/tags/0.2.2
+> 3691d8454390d2c3892dcb93bf10041801b71c6e refs/tags/0.2.3
+> 4d3c2191cb86a43199fe6e686e642d74e9bcf52b refs/tags/0.3.0
+> f47492c3716f93c23c67d0015a42a184097b2a4e refs/tags/0.4.0
+> f700319d7f99d9ea8c7de309c0c46cf966755f3a refs/tags/0.5.0
+> 24684ca71b7856af888051465e2ec022b48a98a7 refs/tags/0.5.1
+> 07c592cc86eda24b3d78e095025afe5e1e57b510 refs/tags/0.6.0
+> 82bed9dd5e7d01cc187bc59cf2085b1c3f3bcb3c refs/tags/0.6.1
+> 131dae581826473b6438aa3e6045d6a9227438b4 refs/tags/0.6.2
+> d5a9eccb7b5bb5bcddcfbab778f4cf482df8b7ca refs/tags/0.6.3
+> 9a091d774008b6b70a99dc6d588a8641a94558f8 refs/tags/0.6.4
+> 6ffc7ee3b3a8ead799aef9af3b69f4e50c533f45 refs/tags/0.6.5
+> bf5c00ff2ac859f929d8851b081c32b65f1894c5 refs/tags/0.6.6
+> f3fb955d75f2a808f8eb833933d1f61bdb0f394d refs/tags/0.6.7
+> 2ee4a51546c6f2ea1c2eb3b55a2c2a94600ecbd2 refs/tags/0.6.8
+> 7f74de977cd93d6db30635f215394bde3d0838c1 refs/tags/0.6.9
+> 9c8e39c30cc42b00f1ae7d5fc6ee13a4e70b0b08 refs/tags/0.7.0
+> 0834551161562f623acfb60d0bfeaa809ddcefee refs/tags/0.7.1
+> e9b6380c1893d686992e0789d1dedc97f30ef779 refs/tags/0.7.2
+> fe88a3fa81bebcac19289d03d08ec5b96198fbda refs/tags/0.8.0
+> 35d806b8017bcd3d2059d36175660bf92a88df15 refs/tags/0.9.0
+> aae105c998ccec3b67d770b206f5d751719725ef refs/tags/0.9.1
+> 383d999fec4ccff37b57cecc8c99aa609df2e12b refs/tags/0.9.10
+> 115c6e36e640c8fefc06bef9c76d5cc522d498eb refs/tags/0.9.11
+> 3c1ba0a24063550aa6ea9c3cb199f08ecf75dbcc refs/tags/0.9.12
+> aa5f55bbe3fab0be39fe48cb5824dfcbc331706c refs/tags/0.9.13
+> fd417c0805d5600fe7f18b8d4d584c9e56ca2e26 refs/tags/0.9.15
+> 9eb6c4e296d5736565c0434514b709d2bbb3bebe refs/tags/0.9.16
+> f0bead34d4f3a36cb9c94d60152d22dc6a773d60 refs/tags/0.9.17
+> 47193a3d2f81a8ce7177449f92e927db74d873b0 refs/tags/0.9.18
+> d8a808f76c51ded496b8be244513dad9345adb68 refs/tags/0.9.19
+> b9338c72c9dddac9d38c76b23aa3502557982a19 refs/tags/0.9.2
+> 3ecd4030e3318863d2bab087d01c9921624f0269 refs/tags/0.9.20
+> e90c66a10204bc6053ee295cf7024fb24f9f2266 refs/tags/0.9.21
+> e30fba0b8f875c7f35e3173be2b9f6f3ffe3641e refs/tags/0.9.22
+> c6a9b63189c1617606ba726f3fd7af5a80df97d6 refs/tags/0.9.23
+> 48ec834ec9c7cdf146169c8b0f669ce1e9a8849e refs/tags/0.9.24
+> 01c682c41ecb6a415b477745166ef430a344c370 refs/tags/0.9.3
+> 6db795401a6c060a1e9c6d2a72be3caa69ad8ed0 refs/tags/0.9.4
+> 4b29aef048b640f162cd4d0b7ad082fc20b1c0b8 refs/tags/0.9.5
+> 729a4fe37e899143cf9ae2e3bf88c5d574714489 refs/tags/0.9.6
+> 5300461c79de4c38ec652a5e26eb05ab2bbff335 refs/tags/0.9.7
+> e5787a2617df99ed465a46b5cd3063f3c440450a refs/tags/0.9.8
+> 1540797cd93bd91517b7fb28b2a129cb8938381d refs/tags/0.9.9
+diff '--color=auto' -r ./.git/refs/heads/master ../../Waybar/.git/refs/heads/master
+1c1
+< 6560e32bc1fd3c777d7094b2033a4358a98ca0ee
+---
+> 26329b660af3169b9daad533017964f35ba98726
+diff '--color=auto' -r ./include/modules/wlr/taskbar.hpp ../../Waybar/include/modules/wlr/taskbar.hpp
+27,30d26
+< struct widget_geometry {
+<   int x, y, w, h;
+< };
+< 
+49d44
+<   struct widget_geometry minimize_hint;
+90,91d84
+<   void set_minimize_hint();
+<   void on_button_size_allocated(Gtk::Allocation &alloc);
+diff '--color=auto' -r ./src/modules/hyprland/backend.cpp ../../Waybar/src/modules/hyprland/backend.cpp
+150a151,152
+>   struct addrinfo aiHints;
+>   struct addrinfo* aiRes = nullptr;
+154a157,164
+>   }
+> 
+>   memset(&aiHints, 0, sizeof(struct addrinfo));
+>   aiHints.ai_family = AF_UNSPEC;
+>   aiHints.ai_socktype = SOCK_STREAM;
+> 
+>   if (getaddrinfo("localhost", nullptr, &aiHints, &aiRes) != 0) {
+>     throw std::runtime_error("Hyprland IPC: Couldn't get host (2)");
+diff '--color=auto' -r ./src/modules/power_profiles_daemon.cpp ../../Waybar/src/modules/power_profiles_daemon.cpp
+207c207
+<     spdlog::error("Failed to set the active power profile: {}", e.what());
+---
+>     spdlog::error("Failed to set the the active power profile: {}", e.what());
+diff '--color=auto' -r ./src/modules/wlr/taskbar.cpp ../../Waybar/src/modules/wlr/taskbar.cpp
+390,394d389
+< void Task::set_minimize_hint() {
+<   zwlr_foreign_toplevel_handle_v1_set_rectangle(handle_, bar_.surface, minimize_hint.x,
+<                                                 minimize_hint.y, minimize_hint.w, minimize_hint.h);
+< }
+< 
+455,461d449
+< void Task::on_button_size_allocated(Gtk::Allocation &alloc) {
+<   gtk_widget_translate_coordinates(GTK_WIDGET(button.gobj()), GTK_WIDGET(bar_.window.gobj()), 0, 0,
+<                                    &minimize_hint.x, &minimize_hint.y);
+<   minimize_hint.w = button.get_width();
+<   minimize_hint.h = button.get_height();
+< }
+< 
+472,473d459
+<     button.signal_size_allocate().connect_notify(
+<         sigc::mem_fun(this, &Task::on_button_size_allocated));
+570,571c556
+<   else if (action == "minimize") {
+<     set_minimize_hint();
+---
+>   else if (action == "minimize")
+573,574c558
+<   } else if (action == "minimize-raise") {
+<     set_minimize_hint();
+---
+>   else if (action == "minimize-raise") {
+Only in ../../Waybar/subprojects: Catch2-3.5.1
+Only in ../../Waybar/subprojects: cava-0.10.2
+Only in ../../Waybar/subprojects: packagecache
