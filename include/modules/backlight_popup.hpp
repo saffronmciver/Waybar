@@ -16,6 +16,7 @@ class BacklightEntry : BacklightSlider{
 
   private:
     Gtk::Label label_;
+    const gint label_margins = 7;
     std::string output_display_name;
 };
 

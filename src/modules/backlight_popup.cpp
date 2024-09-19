@@ -7,9 +7,18 @@ namespace waybar::modules {
                                  const std::string& output_display_name):
     BacklightSlider(id, config)
       {
+      auto label_context = this->label_.get_style_context();
+      auto slider_context = this->scale_.get_style_context();
+
+      if (!id.empty()) {
+        label_context->add_class(id);
+      }
+
+      label_context->add_class(MODULE_CLASS);
+      label_context->add_class("popup_labels");
 
       this->label_.set_text(output_display_name);
-      this->label_.set_margin_start(7);
+      this->label_.set_margin_start(this->label_margins);
       this->hbox_.set_orientation((Gtk::Orientation) GTK_ORIENTATION_HORIZONTAL);
       this->hbox_.add(this->label_);
       this->hbox_.add(this->event_box_);
