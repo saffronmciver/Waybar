@@ -26,13 +26,12 @@ namespace waybar::modules {
   }
 
   BacklightPopup::BacklightPopup(const std::string& id, const waybar::Bar& bar, const Json::Value& config)
-      : APopup(config, "backlight-popup", id), bar_(bar) {
+      : APopup(config, "backlight-popup", id, bar) {
 
       this->vbox.set_orientation((Gtk::Orientation) GTK_ORIENTATION_VERTICAL);
       this->vbox.set_spacing(this->vbox_spacing);
       // vbox.set_scale(this->scale); // TODO ?
 
-      APopup::setupLayering(bar_);
       if (config_["outputs"].isArray() && config_["output_names"].isArray()) {
         spdlog::info("Configuring outputs for backlight popup");
 

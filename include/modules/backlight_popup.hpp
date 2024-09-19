@@ -12,7 +12,6 @@ class BacklightEntry : BacklightSlider{
   public:
     BacklightEntry(const std::string&, const Json::Value&, const std::string&, const std::string&);
     Gtk::Box hbox_;
-    // void setPreferredDevice(const std::string& output);
 
   private:
     Gtk::Label label_;
@@ -30,7 +29,6 @@ class BacklightPopup : public APopup {
   std::vector<std::shared_ptr<BacklightEntry>> entries;
 
  private:
-  const Bar& bar_;
   const gint hbox_spacing = 7;
   const gint vbox_spacing = 7;
 };
